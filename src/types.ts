@@ -22,6 +22,7 @@ export interface Meal {
   carbs: number;
   fat: number;
   description: string;
+  instructions?: string;
   isVegetarian: boolean;
 }
 
